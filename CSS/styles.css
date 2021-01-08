@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: 'Spartan', sans-serif;
+  color: white;
+}
+
+img {
+  border-radius: 100%;
+  width: 40px;
+  float: left;
+  margin: 30px 20px 0;
+}
+
+h1 {
+  font-weight: 600;
+  color: #511F50;
+  font-size: 52px;
+  display: inline-block;
+  width: 39%;
+  margin-bottom: 0;
+}
+
+p {
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: left;
+  line-height: 1.5;
+}
+
+table {
+  display: inline-block;
+  position: absolute;
+  width: 440px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f1e1f4;
+}
+
+/* CLASS STYLES */
+#top-container {
+  width: 1100px;
+  position: relative;
+  margin: auto;
+  background-image: url(bg-pattern-top-desktop.svg);
+}
+
+.introduction {
+  font-size: 16px;
+  width: 45%;
+  line-height: 1.5;
+  color: #511F50;
+  margin-bottom: 80px
+}
+
+.tbrating1 {
+  top: 60px;
+  right: 100px;
+}
+
+.tbrating2 {
+  right: 50px;
+  top: 130px;
+}
+
+.tbrating3 {
+  top: 200px;
+  right: 0;
+}
+
+.rating {
+  padding-left: 40px;
+  color: #511F50;
+  font-weight: bold;
+}
+
+#bottom-container {
+  width: 1100px;
+  height: 200px;
+  margin: auto;
+  background: url(bg-pattern-bottom-desktop.svg) no-repeat;
+  position: relative;
+  padding: 10px;
+}
+
+.buyer {
+  background-color: #511F50;
+  width: 346px;
+  position: absolute;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.buyerColton {
+  top: 0;
+  left: 0;
+}
+
+.buyerIrene {
+  right: 387px;
+  bottom: 8px;
+}
+
+.buyerAnne {
+  bottom: 0;
+  right: 0;
+}
+
+.bname {
+  margin: 30px 0 6px;
+  font-weight: bold;
+}
+
+.bverified {
+  margin: 0 0 40px 0;
+  line-height: 0;
+  color: #a533a1;
+}
+
+.comment {
+  margin: 2.5rem;
+}
